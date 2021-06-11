@@ -1,5 +1,3 @@
-from django.db.models import QuerySet, Count
-from django.shortcuts import render
 from rest_framework.views import APIView
 from .models import student
 from rest_framework import serializers
